@@ -1,0 +1,145 @@
+.todoListMain .header{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.todoListMain .header input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #f0f0f0;
+    background-color: #f0f0f0;
+    width: 300px;
+    margin-top: 0px;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid #505050;
+}
+
+.todoListMain .header input::placeholder{
+    text-align: center;
+}
+
+
+.todoListMain .header label {
+    padding-left: 10px;
+    font-size: 16px;
+    display: block;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.todoListMain .header br {
+    padding: 0px;
+    margin: 0px;
+}
+
+.todoListMain .header p{
+    padding-left: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.todoListMain .header h1{
+    padding-left: 10px;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+
+.todoListMain .header button {
+    padding: 10px;
+    width: 325px;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #0066FF;
+    color: #FFF;
+    border: 2px #0066FF;
+    border-radius: 5px;
+}
+
+.todoListMain .header button:hover {
+    background-color: #003399;
+    border: 2px solid #003399;
+    cursor: pointer;
+}
+
+.todoListMain .theList li {
+    color: #333;
+    background-color:white;
+    padding: 20px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    list-style: none;
+    transition: background-color .2s ease-out;
+    position: relative;
+}
+
+ul.theList {
+    padding: 0;
+}
+
+.todoListMain .theList h1 {
+    font-weight: 100;
+}
+
+.todoListMain .theList button {
+    padding: 10px;
+    margin-right: 0px;
+    width: 325px;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #0066FF;
+    color: #FFF;
+    border: 2px #0066FF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todoListMain .theList button:hover {
+    padding: 10px;
+    margin-right: 0px;
+    width: 325px;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #FFF;
+    border-radius: 5px;
+    background-color: #003399;
+    border: 2px solid #003399;
+    cursor: pointer;
+}
+
+.todoListMain .theList .xButton {
+    margin-top: none;
+    padding: none;
+    position: absolute;
+    top: -15px;
+    right: 20px;
+    color: #cc1010;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    overflow: hidden;
+    outline:none;
+    width: 3px;
+}
+
+.todoListMain .theList .xButton:hover {
+    margin-top: none;
+    padding: none;
+    position: absolute;
+    top: -15px;
+    right: 20px;
+    color: #cc1010;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    overflow: hidden;
+    outline:none;
+    width: 3px;
+}
