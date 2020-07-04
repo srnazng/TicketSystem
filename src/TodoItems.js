@@ -12,8 +12,16 @@ class TodoItems extends Component {
     createTasks(item) {
         return <div>
             <li key={item.key}>
-                <h3>{item.name}<button onClick={e => { e.preventDefault(); this.delete(item.key) }} className="xButton">x</button></h3>
+                <h3>
+                    {item.name}
+                    <button onClick={e => { e.preventDefault(); this.delete(item.key) }} className="xButton">
+                        x
+                    </button>
+                    <br />
+                    <div className="time">{item.timeSubmitted}</div>
+                </h3>
                 <p>
+                    <br />
                     {item.problem}
                     <br />
                         ({item.location})

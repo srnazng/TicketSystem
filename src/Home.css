@@ -82,6 +82,9 @@
 
 ul.theList {
     padding: 0;
+    position: absolute;
+    right: 40px;
+    top: 40px;
 }
 
 .todoListMain .theList h1 {
@@ -94,11 +97,10 @@ ul.theList {
     width: 325px;
     font-size: 16px;
     margin-top: 20px;
-    background-color: #0066FF;
+    border-radius: 5px;
     color: #FFF;
     border: 2px #0066FF;
-    border-radius: 5px;
-    cursor: pointer;
+    background-color: #0066FF;
 }
 
 .todoListMain .theList button:hover {
@@ -107,8 +109,8 @@ ul.theList {
     width: 325px;
     font-size: 16px;
     margin-top: 20px;
-    color: #FFF;
     border-radius: 5px;
+    color: #FFF;
     background-color: #003399;
     border: 2px solid #003399;
     cursor: pointer;
@@ -142,4 +144,10 @@ ul.theList {
     overflow: hidden;
     outline:none;
     width: 3px;
+}
+
+.todoListMain .theList .time {
+    font-size: 14px;
+    color: #707070;
+    font-weight: normal;
 }

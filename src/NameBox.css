@@ -16,6 +16,8 @@
     width: 165px;
     background-color: #f0f0f0;
     margin-right: 10px;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid #505050;
 }
 
 .SignInMain .NameForm button{
@@ -25,5 +27,19 @@
     margin-right: 0px;
     background-color: #0066FF;
     color: #FFF;
-    border: 2px #0066FF
+    border: 2px #0066FF;
+    border-radius: 5px;
+}
+
+.SignInMain .NameForm button:hover{
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    margin-right: 0px;
+    background-color: #0066FF;
+    color: #FFF;
+    border: 2px #0066FF;
+    border-radius: 5px;
+    background-color: #003399;
+    cursor: pointer;
 }

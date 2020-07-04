@@ -19,13 +19,25 @@ class Home extends Component {
 
     addItem(e) {
         if (this._inputElement1.value !== "") {
+            var dateNow = new Date();
+            var hours = 0;
+            var end = "AM";
+            if (dateNow.getHours() > 12) {
+                hours = (dateNow.getHours() % 12);
+                end = "PM"
+            }
+            var timeNow = hours + ':' + dateNow.getMinutes() + end;
+            console.log("time submitted: ", timeNow);
             var newItem = {
                 name: this.state.name,
                 problem: this._inputElement1.value,
                 location: this._inputElement2.value,
                 contact: this._inputElement3.value,
+                timeSubmitted: timeNow,
                 key: Date.now()
             };
+
+            console.log("time submitted: ", this.timeSubmitted);
 
             this.setState((prevState) => {
                 return {
@@ -37,11 +49,12 @@ class Home extends Component {
             alert("Fill out all text boxes");
         }
 
+        //clear input fields
         this._inputElement1.value = "";
         this._inputElement2.value = "";
         this._inputElement3.value = "";
 
-        //console.log(this.state.items);
+        //prevent page refresh
         e.preventDefault();
     }
 
