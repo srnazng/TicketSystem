@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ticketSystem/static/css/main.6f708721.chunk.css",
-    "main.js": "/ticketSystem/static/js/main.cf9a1098.chunk.js",
-    "main.js.map": "/ticketSystem/static/js/main.cf9a1098.chunk.js.map",
-    "runtime-main.js": "/ticketSystem/static/js/runtime-main.1f2b464a.js",
-    "runtime-main.js.map": "/ticketSystem/static/js/runtime-main.1f2b464a.js.map",
-    "static/js/2.d70bab07.chunk.js": "/ticketSystem/static/js/2.d70bab07.chunk.js",
-    "static/js/2.d70bab07.chunk.js.map": "/ticketSystem/static/js/2.d70bab07.chunk.js.map",
-    "index.html": "/ticketSystem/index.html",
-    "precache-manifest.4ba14af1574e0b57339ad67ad502d68b.js": "/ticketSystem/precache-manifest.4ba14af1574e0b57339ad67ad502d68b.js",
-    "service-worker.js": "/ticketSystem/service-worker.js",
-    "static/css/main.6f708721.chunk.css.map": "/ticketSystem/static/css/main.6f708721.chunk.css.map",
-    "static/js/2.d70bab07.chunk.js.LICENSE.txt": "/ticketSystem/static/js/2.d70bab07.chunk.js.LICENSE.txt"
+    "main.css": "/TicketSystem/static/css/main.6f708721.chunk.css",
+    "main.js": "/TicketSystem/static/js/main.cf9a1098.chunk.js",
+    "main.js.map": "/TicketSystem/static/js/main.cf9a1098.chunk.js.map",
+    "runtime-main.js": "/TicketSystem/static/js/runtime-main.8fd0000f.js",
+    "runtime-main.js.map": "/TicketSystem/static/js/runtime-main.8fd0000f.js.map",
+    "static/js/2.d70bab07.chunk.js": "/TicketSystem/static/js/2.d70bab07.chunk.js",
+    "static/js/2.d70bab07.chunk.js.map": "/TicketSystem/static/js/2.d70bab07.chunk.js.map",
+    "index.html": "/TicketSystem/index.html",
+    "precache-manifest.1fc0853726b23b03ed24cc725f3d9e83.js": "/TicketSystem/precache-manifest.1fc0853726b23b03ed24cc725f3d9e83.js",
+    "service-worker.js": "/TicketSystem/service-worker.js",
+    "static/css/main.6f708721.chunk.css.map": "/TicketSystem/static/css/main.6f708721.chunk.css.map",
+    "static/js/2.d70bab07.chunk.js.LICENSE.txt": "/TicketSystem/static/js/2.d70bab07.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1f2b464a.js",
+    "static/js/runtime-main.8fd0000f.js",
     "static/js/2.d70bab07.chunk.js",
     "static/css/main.6f708721.chunk.css",
     "static/js/main.cf9a1098.chunk.js"
